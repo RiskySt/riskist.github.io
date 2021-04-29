@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.left{
+	float: left;
+	width: 60%;
+	background-color: #F48FB1;
+	height: 614px;
+	box-shadow: 5px 5px 50px #000;
+}
+.left img{
+	position: absolute;
+	height: 350px;
+	top: 15%;
+	left: 7%;
+}
+.right{
+	float: right;
+	width: 40%;
+	background: linear-gradient(250deg , #F48FB1, #fff); 
+	height: 614px;
+	box-shadow: 5px 5px 50px #000;
+}
+.box{
+	position: absolute;
+	background-color: #FCE4EC;
+	height: 450px;
+	width: 350px;
+	top: 14%;
+	right: 17%;
+	border-radius: 20px;
+	box-shadow: 2px 5px 10px #000;
+}
+.box h1{
+	color: #F06292;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-shadow: 2px 1.5px 1px #E91E63;
+	font-family: Lobster;
+	font-size: 50px;
+}
+.box input[type="email"]{
+	border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;	
+    text-align: center;
+    border: 2px solid #000;
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+    color: #000;
+    border-radius: 24px;
+    font-weight: 700;
+}
+.box input[type="password"]{
+	border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #000;
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+    color: #000;
+    border-radius: 24px;
+    font-weight: 700;
+}
+.box input[type="password"]:focus,
+.box input[type="email"]:focus
+{
+	width: 250px;
+	outline: none;	
+    background-color: #ecf0f1;
+    border: 2px solid #F06292;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.btn-lgn{
+	margin: 0px auto;
+	font-family: Rancher;
+	float: left;
+	padding: 10px 30px;
+}
+.btn-lgn a{
+	text-decoration: none;
+	padding: 10px 30px;
+	margin-left: 90px;
+	border-radius: 20px;
+	color: #F50057;
+	font-weight: 700;
+	border: 2px solid #F50057;
+	background-color: #FCE4EC;
+}
+	
+.btn-lgn a:hover{
+	background-color: #FCE4EC;
+	padding: 10px 30px;
+	border-radius: 20px;
+	color: #F50057;
+	font-weight: 700;
+	background-color: #F48FB1;
+	border: 2px solid #F50057;
+}
+.input-log{
+	font-family: Rancher;
+	display: inline-flex;
+}
+label{
+	color: #000;
+	left: 0%;
+	margin: 40px 30px;
+	font-weight: 700;
+}
+.input-log a{
+	position: absolute;
+	top: 69%;
+	text-decoration: none;
+	padding-left: 0px auto;
+	font-weight: 1000;
+	background-color: none;
+	border: 1.5px solid #000;
+	color: #000;
+	padding: 10px 30px;
+	border-radius: 20px;
+	margin: 2px 3px;
+	letter-spacing: 1.5px;
+}
+.input-log a:hover{
+	font-weight: 1000;
+	background-color: #F48FB1;
+	border: 1.5px solid #000;
+	color: #000;
+	margin: 2px 3px;
+}
+footer p{
+	color: #F06292;
+	font-weight: 800;
+	clear: both;
+	font-weight: 900;
+	padding-top: 20px;
+	text-align: center;
+}
+input::placeholder{
+	color: #000;
+	font-family: Open Sans;
+	font-weight: 900;
+	text-align: center;
+}
+@media screen and (max-width: 450px){
+	body{
+		background-color: #F48FB1;
+	}
+	.left{
+		background: none;
+		box-shadow: none;
+	}
+	.right{
+		background: none;
+		box-shadow: none;
+	}
+	.left img{
+		position: absolute;
+		height: 200px;
+		top: 5%;
+	}
+	.box{
+		background-image: url(../images/login.svg);
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		height: 350px;
+		width: 290px;
+	}
+	.btn-daftar a{
+		position: absolute;
+		margin-left: 60px;
+	}
+	.input-log a
+	{
+		position: absolute;
+		margin-top: 120px;
+		left: 60%;
+	}.input-log label
+	{
+		position: absolute;
+		margin-top: 130px;
+		left: -5%;
+	}
+	footer p{
+		position: relative;
+		bottom: 0%;
+	}
+}
+
+
+.circle{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	left: 90%;
+	border-radius: 50%;
+	box-shadow: 0 0 100px #8e44ad;
+	background: linear-gradient(230deg, #9b59b6, #F48FB1);
+	animation: move infinite 2s linear;
+}
+.circle-1{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	left: 70%;
+	border-radius: 50%;
+	box-shadow: 0 0 100px #8e44ad;
+	background: linear-gradient(230deg, #9b59b6, #F48FB1);
+	animation: move infinite 2s linear;
+}
+.circle-2{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	left: 83%;
+	border-radius: 50%;
+	box-shadow: 0 0 100px #8e44ad;
+	background: linear-gradient(230deg, #9b59b6, #ecf0f1);
+	animation: move infinite 3s linear;
+}
+.circle-2, .circle-3{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	left: 83%;
+	border-radius: 50%;
+	box-shadow: 0 0 100px #8e44ad;
+	background: linear-gradient(230deg, #9b59b6, #F48FB1);
+	animation: move infinite 3s linear;
+}
+@keyframes move{
+	0%{
+		top: 500px;
+	}
+	100%{
+		top: -200px;
+	}
+}
